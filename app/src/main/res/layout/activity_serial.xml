@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/customParentLayout"
+    android:background="#E8E8E8"
+    tools:context=".VSPActivity"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".1"
+        android:gravity="center">
+        
+        <Button android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/btnConnect_textSize"
+        android:text="@string/connect"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valueInitZero"
+        android:textSize="20sp"
+        tools:text=""
+        android:id="@+id/textView1"/>
+        
+        <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RED"
+        android:textOn="On"
+        android:textOff="Off"
+        android:id="@+id/switchRED"
+        android:layout_gravity="center_horizontal" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valueInitZero"
+        android:textSize="20sp"
+        tools:text=""
+        android:id="@+id/textView2"/>
+        
+        <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:textOn="On"
+        android:textOff="Off"
+        android:id="@+id/switchGREEN"
+        android:layout_gravity="center_horizontal" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valueInitZero"
+        android:textSize="20sp"
+        tools:text=""
+        android:id="@+id/textView3"/>
+        
+        <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+        android:textOn="On"
+        android:textOff="Off"
+        android:id="@+id/switchBLUE"
+        android:layout_gravity="center_horizontal" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valueInitZero"
+        android:textSize="20sp"
+        tools:text=""
+        android:id="@+id/textView4"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageLogo"
+        android:contentDescription="@string/valueInitZero"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valueInitZero"
+            tools:text=""
+            android:id="@+id/textView5"/>
+        <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strCopyright"
+        android:textSize="20sp"
+        tools:text="(c) Jennifer AUBINAIS v1.4"
+        android:id="@+id/labCopyright"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valueInitZero"
+        tools:text=""
+        android:id="@+id/textView6"/>
+        
+    </LinearLayout>
+
+
+
+</LinearLayout>
